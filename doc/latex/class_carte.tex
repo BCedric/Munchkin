@@ -1,0 +1,453 @@
+\hypertarget{class_carte}{\section{Carte Class Reference}
+\label{class_carte}\index{Carte@{Carte}}
+}
+Inheritance diagram for Carte\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.474886cm]{class_carte}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_carte_a85f142caee17cf2531dfff69490958b4}{Carte} (int id, std\-::string n, std\-::string d)
+\begin{DoxyCompactList}\small\item\em Constructeur de carte. \end{DoxyCompactList}\item 
+\hypertarget{class_carte_a63300ff55c58b5d5b1674a3fc8f25910}{virtual \hyperlink{class_carte_a63300ff55c58b5d5b1674a3fc8f25910}{$\sim$\-Carte} ()}\label{class_carte_a63300ff55c58b5d5b1674a3fc8f25910}
+
+\begin{DoxyCompactList}\small\item\em Destructeur de carte. \end{DoxyCompactList}\item 
+virtual std\-::string \hyperlink{class_carte_a7b68885ddbd8c8f6991e5447346913bc}{get\-Nom} ()
+\begin{DoxyCompactList}\small\item\em Renvoie le nom de la carte. \end{DoxyCompactList}\item 
+virtual std\-::string \hyperlink{class_carte_a591705d6bb95c36ce4a034b3107ae85c}{get\-Description} ()
+\begin{DoxyCompactList}\small\item\em Renvoie la description de la carte. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_carte}{Carte} $\ast$ \hyperlink{class_carte_a03711d12e3252863aa4303b3edc5c118}{get\-Carte} ()
+\begin{DoxyCompactList}\small\item\em Renvoie un pointeur sur cet élément. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_af0156ad1b4b87414df65caddd310212a}{est\-Porte} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est une \hyperlink{class_porte}{Porte}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_af9c84ec45b9a570d8ac8019726756ee7}{est\-Malediction} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est une \hyperlink{class_malediction}{Malediction}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_a74c9bf2967ea099015d1b96003f9da18}{est\-Monstre} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est un \hyperlink{class_monstre}{Monstre}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_acbac53716e6285801ca151aa177fc699}{est\-Race} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est une \hyperlink{class_race}{Race}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_a3be68ed1ee99d835cd27148e456e5b9c}{est\-Potion} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est une \hyperlink{class_potion}{Potion}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_abcf22b28f170502cb4f17f2c0b7a031f}{est\-Equipement} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est un \hyperlink{class_equipement}{Equipement}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_a5d971af0574d33695afba7c525ef1a3e}{est\-Armure} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est une \hyperlink{class_armure}{Armure}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_a830cd4aac4b93fab69a0901d35e562ab}{est\-Chaussure} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est une \hyperlink{class_chaussure}{Chaussure}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_aeb1c07fe1a7071b2d6d4a14bbeb032f5}{est\-Couvre\-Chef} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est un \hyperlink{class_couvre_chef}{Couvre\-Chef}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_a13cfbbcd63cd11659ada554db42f6a3f}{est\-Main} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est une \hyperlink{class_main}{Main}. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_carte_a5fcbed672fcb0141ac2349db64d82385}{est\-Tresor} ()
+\begin{DoxyCompactList}\small\item\em Renvoie vrai si c'est une \hyperlink{class_tresor}{Tresor}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_carte_ade8947dac978d46922ccff92aebf54f7}{appliquer} (\hyperlink{class_personnage}{Personnage} $\ast$p)
+\begin{DoxyCompactList}\small\item\em applique le comportement de la carte \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_carte_a938f4d4a1df46c4fc695c01e4bf585ba}{retirer} (\hyperlink{class_personnage}{Personnage} $\ast$p)
+\begin{DoxyCompactList}\small\item\em retire le comportement de la carte \end{DoxyCompactList}\item 
+virtual int \hyperlink{class_carte_ada584f087ef345e6ebf7955be74c4084}{get\-Valeur} ()
+\begin{DoxyCompactList}\small\item\em renvoie la valeur du comportement \end{DoxyCompactList}\item 
+int \hyperlink{class_carte_ae51a40df8fb2ab5498ae67e165ceb5f2}{get\-Id} ()
+\begin{DoxyCompactList}\small\item\em renvoie l'identifiant \end{DoxyCompactList}\item 
+bool \hyperlink{class_carte_a5fd7084b52e3c47e830ba319b402782e}{compare} (\hyperlink{class_carte}{Carte} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Permet de comparer 2 cartes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_carte_aafef265451f5c4c38ec27f8f53ae4509}{identifiant}
+\item 
+std\-::string \hyperlink{class_carte_a46bff2b84b76b6b94b2eaa3fe813ec69}{nom}
+\item 
+std\-::string \hyperlink{class_carte_a5f2acc07fa281fb6d4467c00bd4b1614}{description}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_carte_a85f142caee17cf2531dfff69490958b4}{\index{Carte@{Carte}!Carte@{Carte}}
+\index{Carte@{Carte}!Carte@{Carte}}
+\subsubsection[{Carte}]{\setlength{\rightskip}{0pt plus 5cm}Carte\-::\-Carte (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{std\-::string}]{n, }
+\item[{std\-::string}]{d}
+\end{DoxyParamCaption}
+)}}\label{class_carte_a85f142caee17cf2531dfff69490958b4}
+
+
+Constructeur de carte. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identifiant de la carte \\
+\hline
+{\em n} & nom de la carte \\
+\hline
+{\em d} & description de la carte \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_carte_ade8947dac978d46922ccff92aebf54f7}{\index{Carte@{Carte}!appliquer@{appliquer}}
+\index{appliquer@{appliquer}!Carte@{Carte}}
+\subsubsection[{appliquer}]{\setlength{\rightskip}{0pt plus 5cm}void Carte\-::appliquer (
+\begin{DoxyParamCaption}
+\item[{{\bf Personnage} $\ast$}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_ade8947dac978d46922ccff92aebf54f7}
+
+
+applique le comportement de la carte 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cible} & du comportement \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_comportement_ae55149d29c710b0a5a0388cae308024f}{Comportement}, \hyperlink{class_carte_sup_main_adc7d3cf6f6e126400abad30e874cb24e}{Carte\-Sup\-Main}, \hyperlink{class_malus_bonus_aede2c45aa2a0d0f751c128e05d26fb6a}{Malus\-Bonus}, \hyperlink{class_malus_bonus_deguerpir_a703620e87d5d861ba850a3b07f61195a}{Malus\-Bonus\-Deguerpir}, \hyperlink{class_perte_gain_niv_ad72efe1c526391084768a500bb1ae4fa}{Perte\-Gain\-Niv}, and \hyperlink{class_perte_obj_max_a929e1c6370247feb937ae1835648a441}{Perte\-Obj\-Max}.
+
+\hypertarget{class_carte_a5fd7084b52e3c47e830ba319b402782e}{\index{Carte@{Carte}!compare@{compare}}
+\index{compare@{compare}!Carte@{Carte}}
+\subsubsection[{compare}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::compare (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_carte_a5fd7084b52e3c47e830ba319b402782e}
+
+
+Permet de comparer 2 cartes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{class_carte}{Carte}} & à comparer avec this \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vrai si elles ont le même nom, faux sinon 
+\end{DoxyReturn}
+\hypertarget{class_carte_a5d971af0574d33695afba7c525ef1a3e}{\index{Carte@{Carte}!est\-Armure@{est\-Armure}}
+\index{est\-Armure@{est\-Armure}!Carte@{Carte}}
+\subsubsection[{est\-Armure}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Armure (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_a5d971af0574d33695afba7c525ef1a3e}
+
+
+Renvoie vrai si c'est une \hyperlink{class_armure}{Armure}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est une \hyperlink{class_armure}{Armure}, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_a3fc939a96fbe4154af5b104ecc7a1afd}{Comportement}, and \hyperlink{class_armure_a5c0c3ffb5402e821b454076c5e3d99bc}{Armure}.
+
+\hypertarget{class_carte_a830cd4aac4b93fab69a0901d35e562ab}{\index{Carte@{Carte}!est\-Chaussure@{est\-Chaussure}}
+\index{est\-Chaussure@{est\-Chaussure}!Carte@{Carte}}
+\subsubsection[{est\-Chaussure}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Chaussure (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_a830cd4aac4b93fab69a0901d35e562ab}
+
+
+Renvoie vrai si c'est une \hyperlink{class_chaussure}{Chaussure}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est une \hyperlink{class_chaussure}{Chaussure}, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_ab862b3685bf0f29f204ea96b98dc1d4b}{Comportement}, and \hyperlink{class_chaussure_a1d9c1abb1dc4c3bd6476fa19a5885973}{Chaussure}.
+
+\hypertarget{class_carte_aeb1c07fe1a7071b2d6d4a14bbeb032f5}{\index{Carte@{Carte}!est\-Couvre\-Chef@{est\-Couvre\-Chef}}
+\index{est\-Couvre\-Chef@{est\-Couvre\-Chef}!Carte@{Carte}}
+\subsubsection[{est\-Couvre\-Chef}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Couvre\-Chef (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_aeb1c07fe1a7071b2d6d4a14bbeb032f5}
+
+
+Renvoie vrai si c'est un \hyperlink{class_couvre_chef}{Couvre\-Chef}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est un \hyperlink{class_couvre_chef}{Couvre\-Chef}, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_ae3b252fd5bd95df0d2cdfab1242db808}{Comportement}, and \hyperlink{class_couvre_chef_a1fab97ed5b18d67c5dd40f5fa49c1a02}{Couvre\-Chef}.
+
+\hypertarget{class_carte_abcf22b28f170502cb4f17f2c0b7a031f}{\index{Carte@{Carte}!est\-Equipement@{est\-Equipement}}
+\index{est\-Equipement@{est\-Equipement}!Carte@{Carte}}
+\subsubsection[{est\-Equipement}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Equipement (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_abcf22b28f170502cb4f17f2c0b7a031f}
+
+
+Renvoie vrai si c'est un \hyperlink{class_equipement}{Equipement}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est une \hyperlink{class_equipement}{Equipement}, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_aae304a510ec6096fcb4337a72f0fcd72}{Comportement}, and \hyperlink{class_equipement_ab720166d5e8dd681224de3d9490c106d}{Equipement}.
+
+\hypertarget{class_carte_a13cfbbcd63cd11659ada554db42f6a3f}{\index{Carte@{Carte}!est\-Main@{est\-Main}}
+\index{est\-Main@{est\-Main}!Carte@{Carte}}
+\subsubsection[{est\-Main}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_a13cfbbcd63cd11659ada554db42f6a3f}
+
+
+Renvoie vrai si c'est une \hyperlink{class_main}{Main}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est une \hyperlink{class_main}{Main}, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_a91ac9d0063ac95f333ab62f5034cc3ce}{Comportement}, and \hyperlink{class_main_aba193ef84e793b04254c1a13031a0c92}{Main}.
+
+\hypertarget{class_carte_af9c84ec45b9a570d8ac8019726756ee7}{\index{Carte@{Carte}!est\-Malediction@{est\-Malediction}}
+\index{est\-Malediction@{est\-Malediction}!Carte@{Carte}}
+\subsubsection[{est\-Malediction}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Malediction (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_af9c84ec45b9a570d8ac8019726756ee7}
+
+
+Renvoie vrai si c'est une \hyperlink{class_malediction}{Malediction}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est une \hyperlink{class_malediction}{Malediction}, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_a7598241705f53e86b1d08dce11a1a4dd}{Comportement}, and \hyperlink{class_malediction_a3e374642e5326239e9d613bd2233c1be}{Malediction}.
+
+\hypertarget{class_carte_a74c9bf2967ea099015d1b96003f9da18}{\index{Carte@{Carte}!est\-Monstre@{est\-Monstre}}
+\index{est\-Monstre@{est\-Monstre}!Carte@{Carte}}
+\subsubsection[{est\-Monstre}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Monstre (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_a74c9bf2967ea099015d1b96003f9da18}
+
+
+Renvoie vrai si c'est un \hyperlink{class_monstre}{Monstre}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est un \hyperlink{class_monstre}{Monstre}, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_a8cfc80bb17c61c7e5597c50609ec2cfe}{Comportement}, and \hyperlink{class_monstre_ad01432b5c676e4607e550d4c5595d5ea}{Monstre}.
+
+\hypertarget{class_carte_af0156ad1b4b87414df65caddd310212a}{\index{Carte@{Carte}!est\-Porte@{est\-Porte}}
+\index{est\-Porte@{est\-Porte}!Carte@{Carte}}
+\subsubsection[{est\-Porte}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Porte (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_af0156ad1b4b87414df65caddd310212a}
+
+
+Renvoie vrai si c'est une \hyperlink{class_porte}{Porte}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est une \hyperlink{class_porte}{Porte}, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_a25ae445c0424638fd2eef12123960d4b}{Comportement}, and \hyperlink{class_porte_a8a7e6c7c6b1d94b157b2229a6e32ac93}{Porte}.
+
+\hypertarget{class_carte_a3be68ed1ee99d835cd27148e456e5b9c}{\index{Carte@{Carte}!est\-Potion@{est\-Potion}}
+\index{est\-Potion@{est\-Potion}!Carte@{Carte}}
+\subsubsection[{est\-Potion}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Potion (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_a3be68ed1ee99d835cd27148e456e5b9c}
+
+
+Renvoie vrai si c'est une \hyperlink{class_potion}{Potion}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est une \hyperlink{class_potion}{Potion}, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_a2bd892e21d3f14e5e585be037d6ec5bd}{Comportement}, and \hyperlink{class_potion_aa04fc4873583e7b1f90416b226edbe06}{Potion}.
+
+\hypertarget{class_carte_acbac53716e6285801ca151aa177fc699}{\index{Carte@{Carte}!est\-Race@{est\-Race}}
+\index{est\-Race@{est\-Race}!Carte@{Carte}}
+\subsubsection[{est\-Race}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Race (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_acbac53716e6285801ca151aa177fc699}
+
+
+Renvoie vrai si c'est une \hyperlink{class_race}{Race}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est une \hyperlink{class_race}{Race}, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_a0aaa6b86b322e54ff2d0c1e448a650c4}{Comportement}, and \hyperlink{class_race_a4d583fa670a0c3666715b89f86935060}{Race}.
+
+\hypertarget{class_carte_a5fcbed672fcb0141ac2349db64d82385}{\index{Carte@{Carte}!est\-Tresor@{est\-Tresor}}
+\index{est\-Tresor@{est\-Tresor}!Carte@{Carte}}
+\subsubsection[{est\-Tresor}]{\setlength{\rightskip}{0pt plus 5cm}bool Carte\-::est\-Tresor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_a5fcbed672fcb0141ac2349db64d82385}
+
+
+Renvoie vrai si c'est une \hyperlink{class_tresor}{Tresor}. 
+
+\begin{DoxyReturn}{Returns}
+vrai si c'est un trésor, Faux sinon 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_tresor_ade57ffa16e80824293ca128f18b9c648}{Tresor}.
+
+\hypertarget{class_carte_a03711d12e3252863aa4303b3edc5c118}{\index{Carte@{Carte}!get\-Carte@{get\-Carte}}
+\index{get\-Carte@{get\-Carte}!Carte@{Carte}}
+\subsubsection[{get\-Carte}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Carte} $\ast$ Carte\-::get\-Carte (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_a03711d12e3252863aa4303b3edc5c118}
+
+
+Renvoie un pointeur sur cet élément. 
+
+\begin{DoxyReturn}{Returns}
+pointeur sur cet élément 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_ae05651b07ef8145ae070507ea455241c}{Comportement}.
+
+\hypertarget{class_carte_a591705d6bb95c36ce4a034b3107ae85c}{\index{Carte@{Carte}!get\-Description@{get\-Description}}
+\index{get\-Description@{get\-Description}!Carte@{Carte}}
+\subsubsection[{get\-Description}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Carte\-::get\-Description (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_a591705d6bb95c36ce4a034b3107ae85c}
+
+
+Renvoie la description de la carte. 
+
+\begin{DoxyReturn}{Returns}
+description de la carte 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_a534918dd72e2e3c1d2ecbd85f1c38e65}{Comportement}.
+
+\hypertarget{class_carte_ae51a40df8fb2ab5498ae67e165ceb5f2}{\index{Carte@{Carte}!get\-Id@{get\-Id}}
+\index{get\-Id@{get\-Id}!Carte@{Carte}}
+\subsubsection[{get\-Id}]{\setlength{\rightskip}{0pt plus 5cm}int Carte\-::get\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_carte_ae51a40df8fb2ab5498ae67e165ceb5f2}
+
+
+renvoie l'identifiant 
+
+\begin{DoxyReturn}{Returns}
+la valeur de l'identifiant 
+\end{DoxyReturn}
+\hypertarget{class_carte_a7b68885ddbd8c8f6991e5447346913bc}{\index{Carte@{Carte}!get\-Nom@{get\-Nom}}
+\index{get\-Nom@{get\-Nom}!Carte@{Carte}}
+\subsubsection[{get\-Nom}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Carte\-::get\-Nom (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_a7b68885ddbd8c8f6991e5447346913bc}
+
+
+Renvoie le nom de la carte. 
+
+\begin{DoxyReturn}{Returns}
+nom de la carte 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_a0dd697e029b781d83f3251204845530e}{Comportement}.
+
+\hypertarget{class_carte_ada584f087ef345e6ebf7955be74c4084}{\index{Carte@{Carte}!get\-Valeur@{get\-Valeur}}
+\index{get\-Valeur@{get\-Valeur}!Carte@{Carte}}
+\subsubsection[{get\-Valeur}]{\setlength{\rightskip}{0pt plus 5cm}int Carte\-::get\-Valeur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_ada584f087ef345e6ebf7955be74c4084}
+
+
+renvoie la valeur du comportement 
+
+\begin{DoxyReturn}{Returns}
+la valeur du comportement 
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_comportement_a0aa55aa40f00b6e9a2775126e39f0de7}{Comportement}.
+
+\hypertarget{class_carte_a938f4d4a1df46c4fc695c01e4bf585ba}{\index{Carte@{Carte}!retirer@{retirer}}
+\index{retirer@{retirer}!Carte@{Carte}}
+\subsubsection[{retirer}]{\setlength{\rightskip}{0pt plus 5cm}void Carte\-::retirer (
+\begin{DoxyParamCaption}
+\item[{{\bf Personnage} $\ast$}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_carte_a938f4d4a1df46c4fc695c01e4bf585ba}
+
+
+retire le comportement de la carte 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cible} & du comportement \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_comportement_a7be9c46a6ae6d49ca3f49288b438b689}{Comportement}, \hyperlink{class_carte_sup_main_aa2b63cb5ea72b186931bbd8f093d9e20}{Carte\-Sup\-Main}, \hyperlink{class_malus_bonus_a213a8e9301ac84e2cf338476bf6613fc}{Malus\-Bonus}, and \hyperlink{class_malus_bonus_deguerpir_af7889dc668d138990d4e255c76bb8a89}{Malus\-Bonus\-Deguerpir}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_carte_a5f2acc07fa281fb6d4467c00bd4b1614}{\index{Carte@{Carte}!description@{description}}
+\index{description@{description}!Carte@{Carte}}
+\subsubsection[{description}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Carte\-::description\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_carte_a5f2acc07fa281fb6d4467c00bd4b1614}
+description de la carte \hypertarget{class_carte_aafef265451f5c4c38ec27f8f53ae4509}{\index{Carte@{Carte}!identifiant@{identifiant}}
+\index{identifiant@{identifiant}!Carte@{Carte}}
+\subsubsection[{identifiant}]{\setlength{\rightskip}{0pt plus 5cm}int Carte\-::identifiant\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_carte_aafef265451f5c4c38ec27f8f53ae4509}
+identifient de la carte \hypertarget{class_carte_a46bff2b84b76b6b94b2eaa3fe813ec69}{\index{Carte@{Carte}!nom@{nom}}
+\index{nom@{nom}!Carte@{Carte}}
+\subsubsection[{nom}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string Carte\-::nom\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_carte_a46bff2b84b76b6b94b2eaa3fe813ec69}
+nom de la carte 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_carte_8hpp}{Carte.\-hpp}\item 
+\hyperlink{_carte_8cpp}{Carte.\-cpp}\end{DoxyCompactItemize}

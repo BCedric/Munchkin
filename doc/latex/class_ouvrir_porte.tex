@@ -1,0 +1,162 @@
+\hypertarget{class_ouvrir_porte}{\section{Ouvrir\-Porte Class Reference}
+\label{class_ouvrir_porte}\index{Ouvrir\-Porte@{Ouvrir\-Porte}}
+}
+Inheritance diagram for Ouvrir\-Porte\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_ouvrir_porte}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_ouvrir_porte_a6cd824c78a2293d060721cf8a89bf89b}{Ouvrir\-Porte} (\hyperlink{class_joueur}{Joueur} $\ast$t)
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_ouvrir_porte}{Ouvrir\-Porte}. \end{DoxyCompactList}\item 
+\hypertarget{class_ouvrir_porte_a001086091ec39ba7c389cdb49c89b722}{virtual \hyperlink{class_ouvrir_porte_a001086091ec39ba7c389cdb49c89b722}{$\sim$\-Ouvrir\-Porte} ()}\label{class_ouvrir_porte_a001086091ec39ba7c389cdb49c89b722}
+
+\begin{DoxyCompactList}\small\item\em Destructeur de \hyperlink{class_ouvrir_porte}{Ouvrir\-Porte}. \end{DoxyCompactList}\item 
+\hypertarget{class_ouvrir_porte_aea016cbe6d05c27fcc24bd65565bb657}{void {\bfseries piocher\-Porte\-Face\-Cache} ()}\label{class_ouvrir_porte_aea016cbe6d05c27fcc24bd65565bb657}
+
+\item 
+void \hyperlink{class_ouvrir_porte_acd6f890c0ed89e08cb820f547c111591}{changer\-Race} (\hyperlink{class_carte}{Carte} $\ast$r)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de changer de race. \end{DoxyCompactList}\item 
+void \hyperlink{class_ouvrir_porte_aa674ed243b4fe8575cd9e18b4b1b6990}{pose\-Equipement} (\hyperlink{class_carte}{Carte} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de poser un équipement. \end{DoxyCompactList}\item 
+void \hyperlink{class_ouvrir_porte_ad5a18a158f9c677ca24e2f84bc078675}{equiper} (\hyperlink{class_carte}{Carte} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Permet au joueur d'équiper un équipement. \end{DoxyCompactList}\item 
+void \hyperlink{class_ouvrir_porte_aec4fd339b026b3d122ef0282f48e7a9e}{poser\-Malediction} (\hyperlink{class_joueur}{Joueur} $\ast$cible, \hyperlink{class_carte}{Carte} $\ast$m)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de poser une malédiction contre un autre joueur. \end{DoxyCompactList}\item 
+void \hyperlink{class_ouvrir_porte_a97795263883803be7189a00756da3ace}{combattre} (\hyperlink{class_carte}{Carte} $\ast$m)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de combattre un monstre. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_ouvrir_porte_a6cd824c78a2293d060721cf8a89bf89b}{\index{Ouvrir\-Porte@{Ouvrir\-Porte}!Ouvrir\-Porte@{Ouvrir\-Porte}}
+\index{Ouvrir\-Porte@{Ouvrir\-Porte}!OuvrirPorte@{Ouvrir\-Porte}}
+\subsubsection[{Ouvrir\-Porte}]{\setlength{\rightskip}{0pt plus 5cm}Ouvrir\-Porte\-::\-Ouvrir\-Porte (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{t}
+\end{DoxyParamCaption}
+)}}\label{class_ouvrir_porte_a6cd824c78a2293d060721cf8a89bf89b}
+
+
+Constructeur de \hyperlink{class_ouvrir_porte}{Ouvrir\-Porte}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \hyperlink{class_joueur}{Joueur} dont l'état doit être géré \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_ouvrir_porte_acd6f890c0ed89e08cb820f547c111591}{\index{Ouvrir\-Porte@{Ouvrir\-Porte}!changer\-Race@{changer\-Race}}
+\index{changer\-Race@{changer\-Race}!OuvrirPorte@{Ouvrir\-Porte}}
+\subsubsection[{changer\-Race}]{\setlength{\rightskip}{0pt plus 5cm}void Ouvrir\-Porte\-::changer\-Race (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{r}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ouvrir_porte_acd6f890c0ed89e08cb820f547c111591}
+
+
+Permet au joueur de changer de race. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & nouvelle race \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_ad60942aa96f0bfb05771f787964887fe}{Etat\-Joueur}.
+
+\hypertarget{class_ouvrir_porte_a97795263883803be7189a00756da3ace}{\index{Ouvrir\-Porte@{Ouvrir\-Porte}!combattre@{combattre}}
+\index{combattre@{combattre}!OuvrirPorte@{Ouvrir\-Porte}}
+\subsubsection[{combattre}]{\setlength{\rightskip}{0pt plus 5cm}void Ouvrir\-Porte\-::combattre (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ouvrir_porte_a97795263883803be7189a00756da3ace}
+
+
+Permet au joueur de combattre un monstre. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & monstre à combattre \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_a63c672f1d599a82f88aa80aebedf78d6}{Etat\-Joueur}.
+
+\hypertarget{class_ouvrir_porte_ad5a18a158f9c677ca24e2f84bc078675}{\index{Ouvrir\-Porte@{Ouvrir\-Porte}!equiper@{equiper}}
+\index{equiper@{equiper}!OuvrirPorte@{Ouvrir\-Porte}}
+\subsubsection[{equiper}]{\setlength{\rightskip}{0pt plus 5cm}void Ouvrir\-Porte\-::equiper (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ouvrir_porte_ad5a18a158f9c677ca24e2f84bc078675}
+
+
+Permet au joueur d'équiper un équipement. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & equipement à équiper \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_a2d975d2cd1163a43d6f0002c1f9943e9}{Etat\-Joueur}.
+
+\hypertarget{class_ouvrir_porte_aa674ed243b4fe8575cd9e18b4b1b6990}{\index{Ouvrir\-Porte@{Ouvrir\-Porte}!pose\-Equipement@{pose\-Equipement}}
+\index{pose\-Equipement@{pose\-Equipement}!OuvrirPorte@{Ouvrir\-Porte}}
+\subsubsection[{pose\-Equipement}]{\setlength{\rightskip}{0pt plus 5cm}void Ouvrir\-Porte\-::pose\-Equipement (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ouvrir_porte_aa674ed243b4fe8575cd9e18b4b1b6990}
+
+
+Permet au joueur de poser un équipement. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & equipement à poser \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_a7d3b72dd7a93a787dcea00d606e9eec2}{Etat\-Joueur}.
+
+\hypertarget{class_ouvrir_porte_aec4fd339b026b3d122ef0282f48e7a9e}{\index{Ouvrir\-Porte@{Ouvrir\-Porte}!poser\-Malediction@{poser\-Malediction}}
+\index{poser\-Malediction@{poser\-Malediction}!OuvrirPorte@{Ouvrir\-Porte}}
+\subsubsection[{poser\-Malediction}]{\setlength{\rightskip}{0pt plus 5cm}void Ouvrir\-Porte\-::poser\-Malediction (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{cible, }
+\item[{{\bf Carte} $\ast$}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ouvrir_porte_aec4fd339b026b3d122ef0282f48e7a9e}
+
+
+Permet au joueur de poser une malédiction contre un autre joueur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cible} & cible de la malédiction \\
+\hline
+{\em m} & \hyperlink{class_malediction}{Malediction} à poser \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_a6895655263daefa056c3ee11f716cc28}{Etat\-Joueur}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_ouvrir_porte_8hpp}{Ouvrir\-Porte.\-hpp}\item 
+\hyperlink{_ouvrir_porte_8cpp}{Ouvrir\-Porte.\-cpp}\end{DoxyCompactItemize}

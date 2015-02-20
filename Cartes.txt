@@ -1,0 +1,64 @@
+Equipement;Genouilleres perforantes;;200;(MalusBonus,1);
+Equipement;Collants de Force de Géant;;600;(MalusBonus,3);
+Equipement;Epée Karaoké;;400;(MalusBonus,2);
+Chaussure;Bottes de deplacement frénétique;Ces bottes vous confèrent un bonus de +2 pour deguerpir;400;(MalusBonusDeguerpir,2);
+Chaussure;Bottes de pas deux;;400;(MalusBonus,2);
+Main;Greffier Griffu Grognon à une main;;400;(MalusBonus,2);
+Main;Brochette de Rat;;0;(MalusBonus,1);
+Main;Enorme rocher;;0;2;(MalusBonus,3);
+Main;Targe d'inconscience suicidaire;;400;(MalusBonus,2);
+Main;Epée (de) Batard(e);;400;(MalusBonus,2);
+Main;Tronçonneuse de la mort;;600;2;(MalusBonus,4);
+Main;Enclume;;0;2;(MalusBonus,3);
+Main;Lance de 3.50m;;200;2;(MalusBonus,1);
+Main;Tondeuse à  gazon;;600;2;(MalusBonus,3);
+CouvreChef;Casque de virilité ostentatoire;;600;(MalusBonus,3);
+CouvreChef;Casque de courage;;200;(MalusBonus,1);
+Chaussure;Bottes de convocation d'hémoroides;;400;(MalusBonus,1);
+Armure;Armure de flammes;;400;(MalusBonus,2);
+Armure;Armure de cuir;;200;(MalusBonus,1);
+Armure;Armure gluante;;200;(MalusBonus,1);
+Armure;Armure de Mithril;;600;(MalusBonus,3);
+Potion;Cotion de Ponfusion;;100;(MalusBonus,3);
+Potion;Missile Magique;;300;(MalusBonus,5);
+Potion;Potion de poison enflammé;;100;(MalusBonus,3);
+Potion;Potion de Mauvaise Haleine;;100;(MalusBonus,2);
+Potion;Potion Glaciale Explosive;;100;(MalusBonus,3);
+Potion;Boisson Energisante Eventée;;200;(MalusBonus,2);
+Potion;Oh, les Jolis Ballons !;;0;(MalusBonus,5);
+Potion;Potion acide radioactive et électrique;;200;(MalusBonus,5);
+Potion;Potion de bravoure hystérique;;100;(MalusBonus,2);
+Potion;Potion de sommeil;;100;(MalusBonus,2);
+
+
+
+
+Monstre;Plante d'ornement;;1;1;
+Monstre;Rat Muscle;;1;1;(PerteGainNiv,-1);
+Monstre;Gobelin Estropié;;1;1;(PerteGainNiv,-1);
+Monstre;Jeanne d'Orc;;2;1;(PerteGainNiv,-1);
+Monstre;Pit Bull;;2;1;(PerteGainNiv,-2);
+Monstre;Mr. Nonos;;2;1;(PerteGainNiv,-2);
+Monstre;Grenouilles Volantes;;2;1;(PerteGainNiv,-2);
+Monstre;Harpistes;;4;2;(PerteGainNiv,-2);
+Monstre;Cheval Zombie;;4;2;(PerteGainNiv,-2);
+Monstre;Manticor-nithorynque;;6;1;(PerteGainNiv,-2);
+Monstre;Amazone;;8;2;(PerteGainNiv,-3);
+Monstre;Belvédère Sauvage;;8;2;(PerteGainNiv,-3);
+Monstre;Nez Flottant;;10;3;(PerteGainNiv,-3);
+Monstre;Bigfoot alias Grand-Pied;;12;3;(PerteGainNiv,-2);
+Monstre;Fan de Vampire;;12;3;(PerteGainNiv,-3);
+Monstre;Succube Langue-De-Belle-Mere;;12;3;(PerteGainNiv,-2);
+Monstre;René Crophage et Fils, Dépanneurs en Chirurgie;;16;4;2;(PerteGainNiv,-10);
+
+Race;Nain;;(CarteSupMain,1);
+Race;Nain;;(CarteSupMain,1);
+Race;Nain;;(CarteSupMain,1);
+Race;Elfe;;(MalusBonusDeguerpir,1);
+Race;Elfe;;(MalusBonusDeguerpir,1);
+Race;Elfe;;(MalusBonusDeguerpir,1);
+Malediction;Canard de l'appocalypse;Les avanturiers malins ne ramassent pas de canard dans les donjon, ;(PerteGainNiv,-2);
+
+Malediction;Malediction;Perdez 1 niveau;(PerteGainNiv,-1);
+Malediction;Malediction;Perdez 1 niveau;(PerteGainNiv,-1);
+Malediction;Condamné par le destin;Perdez 1 niveau;(PerteGainNiv,-1);

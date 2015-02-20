@@ -1,0 +1,278 @@
+\hypertarget{class_munchkin}{\section{Munchkin Class Reference}
+\label{class_munchkin}\index{Munchkin@{Munchkin}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_munchkin_a7405ce09c2fecf6a7c8aad66b540fe6f}{Munchkin} (std\-::string filename, int nb\-Joueurs)
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+\hyperlink{class_munchkin_afeca2de58c0d97d3c7e8f16cba24f0a9}{$\sim$\-Munchkin} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_carte}{Carte} $\ast$ $>$ \& \hyperlink{class_munchkin_a9d50d44d8e4c21b7a32e331823cce92a}{get\-Portes} ()
+\begin{DoxyCompactList}\small\item\em Retourne la pioche Portes. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_carte}{Carte} $\ast$ $>$ \& \hyperlink{class_munchkin_a6ce31edc0ecf47b7d622842bf3fc4373}{get\-Defausse} ()
+\begin{DoxyCompactList}\small\item\em Retourne la defausse. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_carte}{Carte} $\ast$ $>$ \& \hyperlink{class_munchkin_a4a28077ee688d85c6c4191f46f4edd4e}{get\-Tresors} ()
+\begin{DoxyCompactList}\small\item\em Retourne la pioche Tresors. \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{class_joueur}{Joueur} $\ast$ $>$ \& \hyperlink{class_munchkin_aa6269652a6d729b8fa1df8ab7fa4669f}{get\-Joueurs} ()
+\begin{DoxyCompactList}\small\item\em Retourne la liste des joueurs. \end{DoxyCompactList}\item 
+\hyperlink{class_joueur}{Joueur} $\ast$ \hyperlink{class_munchkin_a8f8eca21f40abd8b0bb975de1890ac2c}{get\-Courant} ()
+\begin{DoxyCompactList}\small\item\em Retourne le joueur en cours d'action. \end{DoxyCompactList}\item 
+bool \hyperlink{class_munchkin_aa6dda31114e2944e25db91abc70c621b}{get\-Fin\-Partie} ()
+\begin{DoxyCompactList}\small\item\em Retourne le booléen fin\-Partie. \end{DoxyCompactList}\item 
+void \hyperlink{class_munchkin_afc5cf1814a138cc62a21721f898d5247}{set\-Fin\-Partie} (bool b)
+\begin{DoxyCompactList}\small\item\em Change la valeur de fin\-Partie. \end{DoxyCompactList}\item 
+void \hyperlink{class_munchkin_a67a1f016d1722fdb01809448886747a7}{changement\-Joueur} (\hyperlink{class_joueur}{Joueur} $\ast$j)
+\begin{DoxyCompactList}\small\item\em Permet de changer la valeur de courant. \end{DoxyCompactList}\item 
+void \hyperlink{class_munchkin_a4250c37d0904be46d696ae75be8ca9a2}{importer\-Cartes} (std\-::string filename)
+\begin{DoxyCompactList}\small\item\em Importe les cartes d'un fichier texte. \end{DoxyCompactList}\item 
+\hyperlink{class_carte}{Carte} $\ast$ \hyperlink{class_munchkin_aa242a4b775ac07b8d135d6c2bcbeb6bb}{piocher\-Porte} ()
+\begin{DoxyCompactList}\small\item\em Pioche une porte. \end{DoxyCompactList}\item 
+\hyperlink{class_carte}{Carte} $\ast$ \hyperlink{class_munchkin_afdcf1d357b23047721f69c0362edb409}{piocher\-Tresor} ()
+\begin{DoxyCompactList}\small\item\em Pioche un tresor. \end{DoxyCompactList}\item 
+void \hyperlink{class_munchkin_aaba52b8ae44b3dd067a5805a7614c942}{defausser} (\hyperlink{class_carte}{Carte} $\ast$c)
+\begin{DoxyCompactList}\small\item\em Defausse une carte. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_munchkin_a7405ce09c2fecf6a7c8aad66b540fe6f}{\index{Munchkin@{Munchkin}!Munchkin@{Munchkin}}
+\index{Munchkin@{Munchkin}!Munchkin@{Munchkin}}
+\subsubsection[{Munchkin}]{\setlength{\rightskip}{0pt plus 5cm}Munchkin\-::\-Munchkin (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{filename, }
+\item[{int}]{nb\-Joueurs}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_a7405ce09c2fecf6a7c8aad66b540fe6f}
+
+
+Constructeur. 
+
+Constructeur de la classe \hyperlink{class_munchkin}{Munchkin}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \-: Chemin d'Accès au documents contenant les cartes. \\
+\hline
+{\em nb\-Joueurs} & \-: Nombre de joueurs dans la partie. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_munchkin_afeca2de58c0d97d3c7e8f16cba24f0a9}{\index{Munchkin@{Munchkin}!$\sim$\-Munchkin@{$\sim$\-Munchkin}}
+\index{$\sim$\-Munchkin@{$\sim$\-Munchkin}!Munchkin@{Munchkin}}
+\subsubsection[{$\sim$\-Munchkin}]{\setlength{\rightskip}{0pt plus 5cm}Munchkin\-::$\sim$\-Munchkin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_afeca2de58c0d97d3c7e8f16cba24f0a9}
+
+
+Destructeur. 
+
+Destructeur de la classe \hyperlink{class_munchkin}{Munchkin}. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_munchkin_a67a1f016d1722fdb01809448886747a7}{\index{Munchkin@{Munchkin}!changement\-Joueur@{changement\-Joueur}}
+\index{changement\-Joueur@{changement\-Joueur}!Munchkin@{Munchkin}}
+\subsubsection[{changement\-Joueur}]{\setlength{\rightskip}{0pt plus 5cm}void Munchkin\-::changement\-Joueur (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{j}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_a67a1f016d1722fdb01809448886747a7}
+
+
+Permet de changer la valeur de courant. 
+
+Methode qui de modifier le \hyperlink{class_joueur}{Joueur} dont il c'est actuelement le tour
+
+
+\begin{DoxyParams}{Parameters}
+{\em j} & \-: Nouveau joueur en cour d'action. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_munchkin_aaba52b8ae44b3dd067a5805a7614c942}{\index{Munchkin@{Munchkin}!defausser@{defausser}}
+\index{defausser@{defausser}!Munchkin@{Munchkin}}
+\subsubsection[{defausser}]{\setlength{\rightskip}{0pt plus 5cm}void Munchkin\-::defausser (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{c}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_aaba52b8ae44b3dd067a5805a7614c942}
+
+
+Defausse une carte. 
+
+Méthode qui ajoute la carte passé en parametre a la liste defausse.
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \-: \hyperlink{class_carte}{Carte} a ajouter a la défausse. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_munchkin_a8f8eca21f40abd8b0bb975de1890ac2c}{\index{Munchkin@{Munchkin}!get\-Courant@{get\-Courant}}
+\index{get\-Courant@{get\-Courant}!Munchkin@{Munchkin}}
+\subsubsection[{get\-Courant}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Joueur} $\ast$ Munchkin\-::get\-Courant (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_a8f8eca21f40abd8b0bb975de1890ac2c}
+
+
+Retourne le joueur en cours d'action. 
+
+Methode qui retoune le joueur qui est acctuelement en train d'effectuer son tour
+
+\begin{DoxyReturn}{Returns}
+un \hyperlink{class_joueur}{Joueur} 
+\end{DoxyReturn}
+\hypertarget{class_munchkin_a6ce31edc0ecf47b7d622842bf3fc4373}{\index{Munchkin@{Munchkin}!get\-Defausse@{get\-Defausse}}
+\index{get\-Defausse@{get\-Defausse}!Munchkin@{Munchkin}}
+\subsubsection[{get\-Defausse}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ {\bf Carte} $\ast$ $>$ \& Munchkin\-::get\-Defausse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_a6ce31edc0ecf47b7d622842bf3fc4373}
+
+
+Retourne la defausse. 
+
+Retourne la liste des cartes de la defausse
+
+\begin{DoxyReturn}{Returns}
+une liste de \hyperlink{class_carte}{Carte} 
+\end{DoxyReturn}
+\hypertarget{class_munchkin_aa6dda31114e2944e25db91abc70c621b}{\index{Munchkin@{Munchkin}!get\-Fin\-Partie@{get\-Fin\-Partie}}
+\index{get\-Fin\-Partie@{get\-Fin\-Partie}!Munchkin@{Munchkin}}
+\subsubsection[{get\-Fin\-Partie}]{\setlength{\rightskip}{0pt plus 5cm}bool Munchkin\-::get\-Fin\-Partie (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_aa6dda31114e2944e25db91abc70c621b}
+
+
+Retourne le booléen fin\-Partie. 
+
+Methode qui permet de savoir si le jeu est fini ou toujours en cours.
+
+\begin{DoxyReturn}{Returns}
+Retourne un booléen. 
+\end{DoxyReturn}
+\hypertarget{class_munchkin_aa6269652a6d729b8fa1df8ab7fa4669f}{\index{Munchkin@{Munchkin}!get\-Joueurs@{get\-Joueurs}}
+\index{get\-Joueurs@{get\-Joueurs}!Munchkin@{Munchkin}}
+\subsubsection[{get\-Joueurs}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ {\bf Joueur} $\ast$ $>$ \& Munchkin\-::get\-Joueurs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_aa6269652a6d729b8fa1df8ab7fa4669f}
+
+
+Retourne la liste des joueurs. 
+
+Methode qui retourne les joueurs du munchkin
+
+\begin{DoxyReturn}{Returns}
+une liste de \hyperlink{class_joueur}{Joueur} 
+\end{DoxyReturn}
+\hypertarget{class_munchkin_a9d50d44d8e4c21b7a32e331823cce92a}{\index{Munchkin@{Munchkin}!get\-Portes@{get\-Portes}}
+\index{get\-Portes@{get\-Portes}!Munchkin@{Munchkin}}
+\subsubsection[{get\-Portes}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ {\bf Carte} $\ast$ $>$ \& Munchkin\-::get\-Portes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_a9d50d44d8e4c21b7a32e331823cce92a}
+
+
+Retourne la pioche Portes. 
+
+Retourne la liste des cartes portes de la pioche Portes
+
+\begin{DoxyReturn}{Returns}
+une liste de \hyperlink{class_carte}{Carte} 
+\end{DoxyReturn}
+\hypertarget{class_munchkin_a4a28077ee688d85c6c4191f46f4edd4e}{\index{Munchkin@{Munchkin}!get\-Tresors@{get\-Tresors}}
+\index{get\-Tresors@{get\-Tresors}!Munchkin@{Munchkin}}
+\subsubsection[{get\-Tresors}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ {\bf Carte} $\ast$ $>$ \& Munchkin\-::get\-Tresors (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_a4a28077ee688d85c6c4191f46f4edd4e}
+
+
+Retourne la pioche Tresors. 
+
+Retourne la liste des cartes de la pioche Tresors
+
+\begin{DoxyReturn}{Returns}
+une liste de \hyperlink{class_carte}{Carte} 
+\end{DoxyReturn}
+\hypertarget{class_munchkin_a4250c37d0904be46d696ae75be8ca9a2}{\index{Munchkin@{Munchkin}!importer\-Cartes@{importer\-Cartes}}
+\index{importer\-Cartes@{importer\-Cartes}!Munchkin@{Munchkin}}
+\subsubsection[{importer\-Cartes}]{\setlength{\rightskip}{0pt plus 5cm}void Munchkin\-::importer\-Cartes (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{filename}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_a4250c37d0904be46d696ae75be8ca9a2}
+
+
+Importe les cartes d'un fichier texte. 
+
+Methode appel les fabrique de carte pour ajouter des cartes au jeu depuis un fichier texte.
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \-: Chemin d'Accès au documents contenant les cartes. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_munchkin_aa242a4b775ac07b8d135d6c2bcbeb6bb}{\index{Munchkin@{Munchkin}!piocher\-Porte@{piocher\-Porte}}
+\index{piocher\-Porte@{piocher\-Porte}!Munchkin@{Munchkin}}
+\subsubsection[{piocher\-Porte}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Carte} $\ast$ Munchkin\-::piocher\-Porte (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_aa242a4b775ac07b8d135d6c2bcbeb6bb}
+
+
+Pioche une porte. 
+
+Methode qui retourne une carte de la liste de carte \hyperlink{class_porte}{Porte}.
+
+\begin{DoxyReturn}{Returns}
+Une \hyperlink{class_carte}{Carte} de la liste Portes. 
+\end{DoxyReturn}
+\hypertarget{class_munchkin_afdcf1d357b23047721f69c0362edb409}{\index{Munchkin@{Munchkin}!piocher\-Tresor@{piocher\-Tresor}}
+\index{piocher\-Tresor@{piocher\-Tresor}!Munchkin@{Munchkin}}
+\subsubsection[{piocher\-Tresor}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Carte} $\ast$ Munchkin\-::piocher\-Tresor (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_afdcf1d357b23047721f69c0362edb409}
+
+
+Pioche un tresor. 
+
+Methode qui retourne une carte de la liste de carte \hyperlink{class_tresor}{Tresor}.
+
+\begin{DoxyReturn}{Returns}
+Une \hyperlink{class_carte}{Carte} de la liste Tresors. 
+\end{DoxyReturn}
+\hypertarget{class_munchkin_afc5cf1814a138cc62a21721f898d5247}{\index{Munchkin@{Munchkin}!set\-Fin\-Partie@{set\-Fin\-Partie}}
+\index{set\-Fin\-Partie@{set\-Fin\-Partie}!Munchkin@{Munchkin}}
+\subsubsection[{set\-Fin\-Partie}]{\setlength{\rightskip}{0pt plus 5cm}void Munchkin\-::set\-Fin\-Partie (
+\begin{DoxyParamCaption}
+\item[{bool}]{b}
+\end{DoxyParamCaption}
+)}}\label{class_munchkin_afc5cf1814a138cc62a21721f898d5247}
+
+
+Change la valeur de fin\-Partie. 
+
+Permet de changer la valeur de fin\-Partie remplacé par celle en parametre.
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \-: booléen. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_munchkin_8hpp}{Munchkin.\-hpp}\item 
+\hyperlink{_munchkin_8cpp}{Munchkin.\-cpp}\end{DoxyCompactItemize}

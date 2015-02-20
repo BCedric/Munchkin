@@ -1,0 +1,140 @@
+\hypertarget{class_debut_tour}{\section{Debut\-Tour Class Reference}
+\label{class_debut_tour}\index{Debut\-Tour@{Debut\-Tour}}
+}
+Inheritance diagram for Debut\-Tour\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_debut_tour}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_debut_tour_a3acccdb6ccd60c733d00e2817bda5b17}{Debut\-Tour} (\hyperlink{class_joueur}{Joueur} $\ast$t)
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_debut_tour}{Debut\-Tour}. \end{DoxyCompactList}\item 
+\hypertarget{class_debut_tour_a95f1449c91af3e1e68d213f087e14cb2}{virtual \hyperlink{class_debut_tour_a95f1449c91af3e1e68d213f087e14cb2}{$\sim$\-Debut\-Tour} ()}\label{class_debut_tour_a95f1449c91af3e1e68d213f087e14cb2}
+
+\begin{DoxyCompactList}\small\item\em Destructeur de \hyperlink{class_debut_tour}{Debut\-Tour}. \end{DoxyCompactList}\item 
+\hypertarget{class_debut_tour_a6dc0284fd0e955798e3af4220014c2d5}{void \hyperlink{class_debut_tour_a6dc0284fd0e955798e3af4220014c2d5}{piocher\-Porte\-Face\-Visible} ()}\label{class_debut_tour_a6dc0284fd0e955798e3af4220014c2d5}
+
+\begin{DoxyCompactList}\small\item\em Permet au joueur de piocher une carte porte face visible. \end{DoxyCompactList}\item 
+void \hyperlink{class_debut_tour_ae637c2d856e4f96caeb6c3f5832a4de3}{changer\-Race} (\hyperlink{class_carte}{Carte} $\ast$r)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de changer de race. \end{DoxyCompactList}\item 
+void \hyperlink{class_debut_tour_ab2984a9914bf4ad557918a03c7430eff}{pose\-Equipement} (\hyperlink{class_carte}{Carte} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de poser un équipement. \end{DoxyCompactList}\item 
+void \hyperlink{class_debut_tour_a6c0c2462288338c678743d02b4b42883}{equiper} (\hyperlink{class_carte}{Carte} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Permet au joueur d'équiper un équipement. \end{DoxyCompactList}\item 
+void \hyperlink{class_debut_tour_aeb01b4744259f8da83b42ca79863080c}{poser\-Malediction} (\hyperlink{class_joueur}{Joueur} $\ast$cible, \hyperlink{class_carte}{Carte} $\ast$m)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de poser une malédiction contre un autre joueur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_debut_tour_a3acccdb6ccd60c733d00e2817bda5b17}{\index{Debut\-Tour@{Debut\-Tour}!Debut\-Tour@{Debut\-Tour}}
+\index{Debut\-Tour@{Debut\-Tour}!DebutTour@{Debut\-Tour}}
+\subsubsection[{Debut\-Tour}]{\setlength{\rightskip}{0pt plus 5cm}Debut\-Tour\-::\-Debut\-Tour (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{t}
+\end{DoxyParamCaption}
+)}}\label{class_debut_tour_a3acccdb6ccd60c733d00e2817bda5b17}
+
+
+Constructeur de \hyperlink{class_debut_tour}{Debut\-Tour}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \hyperlink{class_joueur}{Joueur} dont l'état doit être géré \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_debut_tour_ae637c2d856e4f96caeb6c3f5832a4de3}{\index{Debut\-Tour@{Debut\-Tour}!changer\-Race@{changer\-Race}}
+\index{changer\-Race@{changer\-Race}!DebutTour@{Debut\-Tour}}
+\subsubsection[{changer\-Race}]{\setlength{\rightskip}{0pt plus 5cm}void Debut\-Tour\-::changer\-Race (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{r}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_debut_tour_ae637c2d856e4f96caeb6c3f5832a4de3}
+
+
+Permet au joueur de changer de race. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & nouvelle race \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_ad60942aa96f0bfb05771f787964887fe}{Etat\-Joueur}.
+
+\hypertarget{class_debut_tour_a6c0c2462288338c678743d02b4b42883}{\index{Debut\-Tour@{Debut\-Tour}!equiper@{equiper}}
+\index{equiper@{equiper}!DebutTour@{Debut\-Tour}}
+\subsubsection[{equiper}]{\setlength{\rightskip}{0pt plus 5cm}void Debut\-Tour\-::equiper (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_debut_tour_a6c0c2462288338c678743d02b4b42883}
+
+
+Permet au joueur d'équiper un équipement. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & equipement à équiper \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_a2d975d2cd1163a43d6f0002c1f9943e9}{Etat\-Joueur}.
+
+\hypertarget{class_debut_tour_ab2984a9914bf4ad557918a03c7430eff}{\index{Debut\-Tour@{Debut\-Tour}!pose\-Equipement@{pose\-Equipement}}
+\index{pose\-Equipement@{pose\-Equipement}!DebutTour@{Debut\-Tour}}
+\subsubsection[{pose\-Equipement}]{\setlength{\rightskip}{0pt plus 5cm}void Debut\-Tour\-::pose\-Equipement (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_debut_tour_ab2984a9914bf4ad557918a03c7430eff}
+
+
+Permet au joueur de poser un équipement. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & equipement à poser \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_a7d3b72dd7a93a787dcea00d606e9eec2}{Etat\-Joueur}.
+
+\hypertarget{class_debut_tour_aeb01b4744259f8da83b42ca79863080c}{\index{Debut\-Tour@{Debut\-Tour}!poser\-Malediction@{poser\-Malediction}}
+\index{poser\-Malediction@{poser\-Malediction}!DebutTour@{Debut\-Tour}}
+\subsubsection[{poser\-Malediction}]{\setlength{\rightskip}{0pt plus 5cm}void Debut\-Tour\-::poser\-Malediction (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{cible, }
+\item[{{\bf Carte} $\ast$}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_debut_tour_aeb01b4744259f8da83b42ca79863080c}
+
+
+Permet au joueur de poser une malédiction contre un autre joueur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cible} & cible de la malédiction \\
+\hline
+{\em m} & \hyperlink{class_malediction}{Malediction} à poser \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_a6895655263daefa056c3ee11f716cc28}{Etat\-Joueur}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_debut_tour_8hpp}{Debut\-Tour.\-hpp}\item 
+\hyperlink{_debut_tour_8cpp}{Debut\-Tour.\-cpp}\end{DoxyCompactItemize}

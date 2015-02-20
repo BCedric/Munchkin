@@ -1,0 +1,242 @@
+\hypertarget{class_etat_joueur}{\section{Etat\-Joueur Class Reference}
+\label{class_etat_joueur}\index{Etat\-Joueur@{Etat\-Joueur}}
+}
+Inheritance diagram for Etat\-Joueur\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_etat_joueur}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_etat_joueur_a1f46122ff2c76ef26731f459ce2d4f45}{Etat\-Joueur} (\hyperlink{class_joueur}{Joueur} $\ast$t)
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_etat_joueur}{Etat\-Joueur}. \end{DoxyCompactList}\item 
+\hypertarget{class_etat_joueur_acf48f30ed257324bcbac1376df584ea1}{virtual \hyperlink{class_etat_joueur_acf48f30ed257324bcbac1376df584ea1}{$\sim$\-Etat\-Joueur} ()}\label{class_etat_joueur_acf48f30ed257324bcbac1376df584ea1}
+
+\begin{DoxyCompactList}\small\item\em Destructeur de \hyperlink{class_etat_joueur}{Etat\-Joueur}. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_etat_joueur_a43fd1564d3c52d723b42ce58aaf9fb8d}{piocher\-Porte\-Face\-Visible} ()
+\begin{DoxyCompactList}\small\item\em Permet au joueur de piocher une carte porte face visible. \end{DoxyCompactList}\item 
+\hypertarget{class_etat_joueur_a6e1cd736b5a9ffe254948329bddabf53}{virtual void {\bfseries piocher\-Porte\-Face\-Cache} ()}\label{class_etat_joueur_a6e1cd736b5a9ffe254948329bddabf53}
+
+\item 
+virtual void \hyperlink{class_etat_joueur_ad60942aa96f0bfb05771f787964887fe}{changer\-Race} (\hyperlink{class_carte}{Carte} $\ast$r)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de changer de race. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_etat_joueur_a7d3b72dd7a93a787dcea00d606e9eec2}{pose\-Equipement} (\hyperlink{class_carte}{Carte} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de poser un équipement. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_etat_joueur_a2d975d2cd1163a43d6f0002c1f9943e9}{equiper} (\hyperlink{class_carte}{Carte} $\ast$e)
+\begin{DoxyCompactList}\small\item\em Permet au joueur d'équiper un équipement. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_etat_joueur_a63c672f1d599a82f88aa80aebedf78d6}{combattre} (\hyperlink{class_carte}{Carte} $\ast$m)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de combattre un monstre. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_etat_joueur_a6895655263daefa056c3ee11f716cc28}{poser\-Malediction} (\hyperlink{class_joueur}{Joueur} $\ast$cible, \hyperlink{class_carte}{Carte} $\ast$m)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de poser une malédiction contre un autre joueur. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_etat_joueur_a76cf1ff3d4140f182a07167a5053f509}{poser\-Potion} (\hyperlink{class_personnage}{Personnage} $\ast$p, \hyperlink{class_carte}{Carte} $\ast$po)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de poser une potion. \end{DoxyCompactList}\item 
+\hypertarget{class_etat_joueur_ab2184107646810a3a54f95e1b29acc57}{virtual void \hyperlink{class_etat_joueur_ab2184107646810a3a54f95e1b29acc57}{deguerpir} ()}\label{class_etat_joueur_ab2184107646810a3a54f95e1b29acc57}
+
+\begin{DoxyCompactList}\small\item\em Permet au joueur de deguerpir lorsqu'il est en combat. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_etat_joueur_a64113ef4494fa9acb088e3d125378735}{defausser\-Carte} (\hyperlink{class_carte}{Carte} $\ast$c)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de défausser des cartes. \end{DoxyCompactList}\item 
+\hypertarget{class_etat_joueur_aaf448c35b13bc492f645c47c176d9365}{virtual void \hyperlink{class_etat_joueur_aaf448c35b13bc492f645c47c176d9365}{finir\-Tour} ()}\label{class_etat_joueur_aaf448c35b13bc492f645c47c176d9365}
+
+\begin{DoxyCompactList}\small\item\em Permet au joueur de finir son tour. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_joueur}{Joueur} $\ast$ \hyperlink{class_etat_joueur_a268f5c0a90e0501233fad4407508e41b}{joueur}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_etat_joueur_a1f46122ff2c76ef26731f459ce2d4f45}{\index{Etat\-Joueur@{Etat\-Joueur}!Etat\-Joueur@{Etat\-Joueur}}
+\index{Etat\-Joueur@{Etat\-Joueur}!EtatJoueur@{Etat\-Joueur}}
+\subsubsection[{Etat\-Joueur}]{\setlength{\rightskip}{0pt plus 5cm}Etat\-Joueur\-::\-Etat\-Joueur (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{t}
+\end{DoxyParamCaption}
+)}}\label{class_etat_joueur_a1f46122ff2c76ef26731f459ce2d4f45}
+
+
+Constructeur de \hyperlink{class_etat_joueur}{Etat\-Joueur}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \hyperlink{class_joueur}{Joueur} dont l'état doit être géré \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_etat_joueur_ad60942aa96f0bfb05771f787964887fe}{\index{Etat\-Joueur@{Etat\-Joueur}!changer\-Race@{changer\-Race}}
+\index{changer\-Race@{changer\-Race}!EtatJoueur@{Etat\-Joueur}}
+\subsubsection[{changer\-Race}]{\setlength{\rightskip}{0pt plus 5cm}void Etat\-Joueur\-::changer\-Race (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{r}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_etat_joueur_ad60942aa96f0bfb05771f787964887fe}
+
+
+Permet au joueur de changer de race. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em r} & nouvelle race \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_fin_tour_a6b217f7a319c9daba98722b86b30da66}{Fin\-Tour}, \hyperlink{class_ouvrir_porte_acd6f890c0ed89e08cb820f547c111591}{Ouvrir\-Porte}, and \hyperlink{class_debut_tour_ae637c2d856e4f96caeb6c3f5832a4de3}{Debut\-Tour}.
+
+\hypertarget{class_etat_joueur_a63c672f1d599a82f88aa80aebedf78d6}{\index{Etat\-Joueur@{Etat\-Joueur}!combattre@{combattre}}
+\index{combattre@{combattre}!EtatJoueur@{Etat\-Joueur}}
+\subsubsection[{combattre}]{\setlength{\rightskip}{0pt plus 5cm}void Etat\-Joueur\-::combattre (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_etat_joueur_a63c672f1d599a82f88aa80aebedf78d6}
+
+
+Permet au joueur de combattre un monstre. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & monstre à combattre \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_ouvrir_porte_a97795263883803be7189a00756da3ace}{Ouvrir\-Porte}, and \hyperlink{class_bagarre_a084f695d366ea866270c2e8c5561c8fe}{Bagarre}.
+
+\hypertarget{class_etat_joueur_a64113ef4494fa9acb088e3d125378735}{\index{Etat\-Joueur@{Etat\-Joueur}!defausser\-Carte@{defausser\-Carte}}
+\index{defausser\-Carte@{defausser\-Carte}!EtatJoueur@{Etat\-Joueur}}
+\subsubsection[{defausser\-Carte}]{\setlength{\rightskip}{0pt plus 5cm}void Etat\-Joueur\-::defausser\-Carte (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{c}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_etat_joueur_a64113ef4494fa9acb088e3d125378735}
+
+
+Permet au joueur de défausser des cartes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & \hyperlink{class_carte}{Carte} à défausser \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_fin_tour_abb40077b94a4b3e345b41299deb6266b}{Fin\-Tour}.
+
+\hypertarget{class_etat_joueur_a2d975d2cd1163a43d6f0002c1f9943e9}{\index{Etat\-Joueur@{Etat\-Joueur}!equiper@{equiper}}
+\index{equiper@{equiper}!EtatJoueur@{Etat\-Joueur}}
+\subsubsection[{equiper}]{\setlength{\rightskip}{0pt plus 5cm}void Etat\-Joueur\-::equiper (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_etat_joueur_a2d975d2cd1163a43d6f0002c1f9943e9}
+
+
+Permet au joueur d'équiper un équipement. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & equipement à équiper \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_fin_tour_a08a9ac7c490c13d6f4b116a55abdad86}{Fin\-Tour}, \hyperlink{class_ouvrir_porte_ad5a18a158f9c677ca24e2f84bc078675}{Ouvrir\-Porte}, and \hyperlink{class_debut_tour_a6c0c2462288338c678743d02b4b42883}{Debut\-Tour}.
+
+\hypertarget{class_etat_joueur_a43fd1564d3c52d723b42ce58aaf9fb8d}{\index{Etat\-Joueur@{Etat\-Joueur}!piocher\-Porte\-Face\-Visible@{piocher\-Porte\-Face\-Visible}}
+\index{piocher\-Porte\-Face\-Visible@{piocher\-Porte\-Face\-Visible}!EtatJoueur@{Etat\-Joueur}}
+\subsubsection[{piocher\-Porte\-Face\-Visible}]{\setlength{\rightskip}{0pt plus 5cm}void Etat\-Joueur\-::piocher\-Porte\-Face\-Visible (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_etat_joueur_a43fd1564d3c52d723b42ce58aaf9fb8d}
+
+
+Permet au joueur de piocher une carte porte face visible. 
+
+Permet au joueur de piocher une carte porte face cachée. 
+
+Reimplemented in \hyperlink{class_debut_tour_a6dc0284fd0e955798e3af4220014c2d5}{Debut\-Tour}.
+
+\hypertarget{class_etat_joueur_a7d3b72dd7a93a787dcea00d606e9eec2}{\index{Etat\-Joueur@{Etat\-Joueur}!pose\-Equipement@{pose\-Equipement}}
+\index{pose\-Equipement@{pose\-Equipement}!EtatJoueur@{Etat\-Joueur}}
+\subsubsection[{pose\-Equipement}]{\setlength{\rightskip}{0pt plus 5cm}void Etat\-Joueur\-::pose\-Equipement (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_etat_joueur_a7d3b72dd7a93a787dcea00d606e9eec2}
+
+
+Permet au joueur de poser un équipement. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & equipement à poser \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_fin_tour_a14304d88c8b344c35cd44fe609c499b6}{Fin\-Tour}, \hyperlink{class_ouvrir_porte_aa674ed243b4fe8575cd9e18b4b1b6990}{Ouvrir\-Porte}, and \hyperlink{class_debut_tour_ab2984a9914bf4ad557918a03c7430eff}{Debut\-Tour}.
+
+\hypertarget{class_etat_joueur_a6895655263daefa056c3ee11f716cc28}{\index{Etat\-Joueur@{Etat\-Joueur}!poser\-Malediction@{poser\-Malediction}}
+\index{poser\-Malediction@{poser\-Malediction}!EtatJoueur@{Etat\-Joueur}}
+\subsubsection[{poser\-Malediction}]{\setlength{\rightskip}{0pt plus 5cm}void Etat\-Joueur\-::poser\-Malediction (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{cible, }
+\item[{{\bf Carte} $\ast$}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_etat_joueur_a6895655263daefa056c3ee11f716cc28}
+
+
+Permet au joueur de poser une malédiction contre un autre joueur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cible} & cible de la malédiction \\
+\hline
+{\em m} & \hyperlink{class_malediction}{Malediction} à poser \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_fin_tour_a526c160be39842a8d61c753ee5f3e6bf}{Fin\-Tour}, \hyperlink{class_ouvrir_porte_aec4fd339b026b3d122ef0282f48e7a9e}{Ouvrir\-Porte}, and \hyperlink{class_debut_tour_aeb01b4744259f8da83b42ca79863080c}{Debut\-Tour}.
+
+\hypertarget{class_etat_joueur_a76cf1ff3d4140f182a07167a5053f509}{\index{Etat\-Joueur@{Etat\-Joueur}!poser\-Potion@{poser\-Potion}}
+\index{poser\-Potion@{poser\-Potion}!EtatJoueur@{Etat\-Joueur}}
+\subsubsection[{poser\-Potion}]{\setlength{\rightskip}{0pt plus 5cm}void Etat\-Joueur\-::poser\-Potion (
+\begin{DoxyParamCaption}
+\item[{{\bf Personnage} $\ast$}]{p, }
+\item[{{\bf Carte} $\ast$}]{po}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_etat_joueur_a76cf1ff3d4140f182a07167a5053f509}
+
+
+Permet au joueur de poser une potion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cible} & cible de la potion \\
+\hline
+{\em po} & potion à poser \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_bagarre_ae0a87f0398857acbabb9993886e96a82}{Bagarre}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_etat_joueur_a268f5c0a90e0501233fad4407508e41b}{\index{Etat\-Joueur@{Etat\-Joueur}!joueur@{joueur}}
+\index{joueur@{joueur}!EtatJoueur@{Etat\-Joueur}}
+\subsubsection[{joueur}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Joueur}$\ast$ Etat\-Joueur\-::joueur\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_etat_joueur_a268f5c0a90e0501233fad4407508e41b}
+\hyperlink{class_joueur}{Joueur} dont l'état doit être géré 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_etat_joueur_8hpp}{Etat\-Joueur.\-hpp}\item 
+\hyperlink{_etat_joueur_8cpp}{Etat\-Joueur.\-cpp}\end{DoxyCompactItemize}

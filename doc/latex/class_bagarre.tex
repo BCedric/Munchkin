@@ -1,0 +1,96 @@
+\hypertarget{class_bagarre}{\section{Bagarre Class Reference}
+\label{class_bagarre}\index{Bagarre@{Bagarre}}
+}
+Inheritance diagram for Bagarre\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_bagarre}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_bagarre_acb7416e18dc7f862d416ccaf97c7e3e2}{Bagarre} (\hyperlink{class_joueur}{Joueur} $\ast$t)
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_bagarre}{Bagarre}. \end{DoxyCompactList}\item 
+\hypertarget{class_bagarre_a4b37f229dd2b741cbfda7181e267b4f0}{virtual \hyperlink{class_bagarre_a4b37f229dd2b741cbfda7181e267b4f0}{$\sim$\-Bagarre} ()}\label{class_bagarre_a4b37f229dd2b741cbfda7181e267b4f0}
+
+\begin{DoxyCompactList}\small\item\em Destructeur de \hyperlink{class_bagarre}{Bagarre}. \end{DoxyCompactList}\item 
+void \hyperlink{class_bagarre_a084f695d366ea866270c2e8c5561c8fe}{combattre} (\hyperlink{class_carte}{Carte} $\ast$m)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de combattre un monstre. \end{DoxyCompactList}\item 
+\hypertarget{class_bagarre_aae798fa4ff9eaaf30413f387302b1e3e}{void \hyperlink{class_bagarre_aae798fa4ff9eaaf30413f387302b1e3e}{deguerpir} ()}\label{class_bagarre_aae798fa4ff9eaaf30413f387302b1e3e}
+
+\begin{DoxyCompactList}\small\item\em Permet au joueur de deguerpir lorsqu'il est en combat. \end{DoxyCompactList}\item 
+void \hyperlink{class_bagarre_ae0a87f0398857acbabb9993886e96a82}{poser\-Potion} (\hyperlink{class_personnage}{Personnage} $\ast$p, \hyperlink{class_carte}{Carte} $\ast$po)
+\begin{DoxyCompactList}\small\item\em Permet au joueur de poser une potion. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_bagarre_acb7416e18dc7f862d416ccaf97c7e3e2}{\index{Bagarre@{Bagarre}!Bagarre@{Bagarre}}
+\index{Bagarre@{Bagarre}!Bagarre@{Bagarre}}
+\subsubsection[{Bagarre}]{\setlength{\rightskip}{0pt plus 5cm}Bagarre\-::\-Bagarre (
+\begin{DoxyParamCaption}
+\item[{{\bf Joueur} $\ast$}]{t}
+\end{DoxyParamCaption}
+)}}\label{class_bagarre_acb7416e18dc7f862d416ccaf97c7e3e2}
+
+
+Constructeur de \hyperlink{class_bagarre}{Bagarre}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \hyperlink{class_joueur}{Joueur} dont l'état doit être géré \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_bagarre_a084f695d366ea866270c2e8c5561c8fe}{\index{Bagarre@{Bagarre}!combattre@{combattre}}
+\index{combattre@{combattre}!Bagarre@{Bagarre}}
+\subsubsection[{combattre}]{\setlength{\rightskip}{0pt plus 5cm}void Bagarre\-::combattre (
+\begin{DoxyParamCaption}
+\item[{{\bf Carte} $\ast$}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_bagarre_a084f695d366ea866270c2e8c5561c8fe}
+
+
+Permet au joueur de combattre un monstre. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & monstre à combattre \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_a63c672f1d599a82f88aa80aebedf78d6}{Etat\-Joueur}.
+
+\hypertarget{class_bagarre_ae0a87f0398857acbabb9993886e96a82}{\index{Bagarre@{Bagarre}!poser\-Potion@{poser\-Potion}}
+\index{poser\-Potion@{poser\-Potion}!Bagarre@{Bagarre}}
+\subsubsection[{poser\-Potion}]{\setlength{\rightskip}{0pt plus 5cm}void Bagarre\-::poser\-Potion (
+\begin{DoxyParamCaption}
+\item[{{\bf Personnage} $\ast$}]{p, }
+\item[{{\bf Carte} $\ast$}]{po}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_bagarre_ae0a87f0398857acbabb9993886e96a82}
+
+
+Permet au joueur de poser une potion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cible} & cible de la potion \\
+\hline
+{\em po} & potion à poser \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{class_etat_joueur_a76cf1ff3d4140f182a07167a5053f509}{Etat\-Joueur}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_bagarre_8hpp}{Bagarre.\-hpp}\item 
+\hyperlink{_bagarre_8cpp}{Bagarre.\-cpp}\end{DoxyCompactItemize}

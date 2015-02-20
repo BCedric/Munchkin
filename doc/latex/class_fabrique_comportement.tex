@@ -1,0 +1,103 @@
+\hypertarget{class_fabrique_comportement}{\section{Fabrique\-Comportement Class Reference}
+\label{class_fabrique_comportement}\index{Fabrique\-Comportement@{Fabrique\-Comportement}}
+}
+Inheritance diagram for Fabrique\-Comportement\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_fabrique_comportement}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_fabrique_comportement_a6dbfe3f5ed715a11f74b311625a94cfd}{Fabrique\-Comportement} ()
+\begin{DoxyCompactList}\small\item\em Constructeur. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_fabrique_comportement_a73b72a29312ca0f16d750bb6ed45f29c}{$\sim$\-Fabrique\-Comportement} ()
+\begin{DoxyCompactList}\small\item\em Destructeur. \end{DoxyCompactList}\item 
+\hyperlink{class_carte}{Carte} $\ast$ \hyperlink{class_fabrique_comportement_a9fcb07ef95aacd3677bba993fafa084e}{fabriquer} (std\-::vector$<$ std\-::string $>$ champs, \hyperlink{class_carte}{Carte} $\ast$c)
+\begin{DoxyCompactList}\small\item\em fabrique une \hyperlink{class_carte}{Carte}. \end{DoxyCompactList}\item 
+std\-::vector$<$ std\-::string $>$ \hyperlink{class_fabrique_comportement_a166b586a89e0f86a57202eee119a3dcc}{decomp\-String} (std\-::string info)
+\begin{DoxyCompactList}\small\item\em Découpe la ligne. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_fabrique_comportement_a6dbfe3f5ed715a11f74b311625a94cfd}{\index{Fabrique\-Comportement@{Fabrique\-Comportement}!Fabrique\-Comportement@{Fabrique\-Comportement}}
+\index{Fabrique\-Comportement@{Fabrique\-Comportement}!FabriqueComportement@{Fabrique\-Comportement}}
+\subsubsection[{Fabrique\-Comportement}]{\setlength{\rightskip}{0pt plus 5cm}Fabrique\-Comportement\-::\-Fabrique\-Comportement (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_fabrique_comportement_a6dbfe3f5ed715a11f74b311625a94cfd}
+
+
+Constructeur. 
+
+Constructeur de la classe \hyperlink{class_fabrique_comportement}{Fabrique\-Comportement} \hypertarget{class_fabrique_comportement_a73b72a29312ca0f16d750bb6ed45f29c}{\index{Fabrique\-Comportement@{Fabrique\-Comportement}!$\sim$\-Fabrique\-Comportement@{$\sim$\-Fabrique\-Comportement}}
+\index{$\sim$\-Fabrique\-Comportement@{$\sim$\-Fabrique\-Comportement}!FabriqueComportement@{Fabrique\-Comportement}}
+\subsubsection[{$\sim$\-Fabrique\-Comportement}]{\setlength{\rightskip}{0pt plus 5cm}Fabrique\-Comportement\-::$\sim$\-Fabrique\-Comportement (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_fabrique_comportement_a73b72a29312ca0f16d750bb6ed45f29c}
+
+
+Destructeur. 
+
+Destructeur de la classe \hyperlink{class_fabrique_comportement}{Fabrique\-Comportement} 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_fabrique_comportement_a166b586a89e0f86a57202eee119a3dcc}{\index{Fabrique\-Comportement@{Fabrique\-Comportement}!decomp\-String@{decomp\-String}}
+\index{decomp\-String@{decomp\-String}!FabriqueComportement@{Fabrique\-Comportement}}
+\subsubsection[{decomp\-String}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ std\-::string $>$ Fabrique\-Comportement\-::decomp\-String (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{info}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_fabrique_comportement_a166b586a89e0f86a57202eee119a3dcc}
+
+
+Découpe la ligne. 
+
+Methode qui découpe une chaine en liste de chaine.
+
+
+\begin{DoxyParams}{Parameters}
+{\em info} & une chaine de caractere. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+une liste de chaine de caractere. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_fabrique_a069aadcb4a6e95c87d9421962fa49cb2}{Fabrique}.
+
+\hypertarget{class_fabrique_comportement_a9fcb07ef95aacd3677bba993fafa084e}{\index{Fabrique\-Comportement@{Fabrique\-Comportement}!fabriquer@{fabriquer}}
+\index{fabriquer@{fabriquer}!FabriqueComportement@{Fabrique\-Comportement}}
+\subsubsection[{fabriquer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Carte} $\ast$ Fabrique\-Comportement\-::fabriquer (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ std\-::string $>$}]{champs, }
+\item[{{\bf Carte} $\ast$}]{c}
+\end{DoxyParamCaption}
+)}}\label{class_fabrique_comportement_a9fcb07ef95aacd3677bba993fafa084e}
+
+
+fabrique une \hyperlink{class_carte}{Carte}. 
+
+Methode qui retourne la \hyperlink{class_carte}{Carte} décoré avec les informations de la liste données en parametres.
+
+
+\begin{DoxyParams}{Parameters}
+{\em champs} & \-: liste de chaine de caractere contenant les informations. \\
+\hline
+{\em c} & \-: \hyperlink{class_carte}{Carte} a décorer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+une \hyperlink{class_carte}{Carte} avec un comportement. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_fabrique_comportement_8hpp}{Fabrique\-Comportement.\-hpp}\item 
+Fabrique\-Comportement.\-cpp\end{DoxyCompactItemize}
